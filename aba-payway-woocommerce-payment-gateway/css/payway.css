@@ -1,0 +1,13 @@
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*.payment_method_aba_payway_aim{
+    display: none;
+}*/
+
